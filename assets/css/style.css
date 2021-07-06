@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;  
+    line-height: 26px;
+    font-weight: 400;
+    color:#18191F;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.custom-color{
+    color:#8ad800
+}
+.hero, .about-me{
+    display: flex;
+}
+.btn{
+    background-image: linear-gradient(to right, #8ad800, #37a73e);
+    padding: 12px 20px;
+    border-radius: 50px;
+    color:#fff;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 5px rgba(138, 216, 0, 0.3);
+}
+.hero, .about-me{
+    align-items: center;
+}
+.hero{
+    padding:50px 0;
+}
+.hero-left, .hero-right, .about-left, .about-right{
+    width: 40%;
+    padding:0 2%;
+}
+.hero-left h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 55px;
+    color:#575757;
+}
+.hero-left p, .about-right p{
+    padding:30px 0px 40px;
+}
+.hero-left p{
+    color:#828282;
+}
+
+/* About Section */
+.about-area{
+    background:url("../images/about-bg.jpg") no-repeat center/cover;  
+}
+.about-me{
+    padding:50px 0 0;
+}
+.about-left img{
+    width: 70%;
+    margin-bottom: -6px;
+}
+.about-right p{
+    padding-bottom: 70px;
+}
+.about-right h2{
+    color:#707070
+}
+
