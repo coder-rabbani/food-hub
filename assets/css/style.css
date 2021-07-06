@@ -178,6 +178,9 @@ h2, h3, h4, h5{
 /* Team Section End*/
 
 /* Blog Section Start */
+.blog-area{
+    padding-bottom: 80px;
+}
 .blog-item{
     padding:20px;
 }
@@ -195,9 +198,23 @@ h2, h3, h4, h5{
     box-shadow:10px 5px 5px 0px rgba(138, 216, 0, 0.1);
 }
 .blog-content p{
-    padding:20px 0 30px;
+    padding:10px 0px 40px;
 }
 .blog-content .btn{
     border-radius: 5px;;
 }
 /* Blog Section End */
+
+/* Footer Section Start */
+footer{
+    background-color: #0B0D17;
+    padding:50px 0px;
+}
+.footer-area{
+    text-align: center;
+    color: #fff;
+}
+.footer-area h2{
+    padding-bottom: 20px;
+}
+/* Footer Section End */
