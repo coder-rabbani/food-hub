@@ -1,3 +1,4 @@
+/*Base Css Start*/
 *{
     margin:0;
     padding: 0;
@@ -14,6 +15,10 @@ body{
     line-height: 26px;
     font-weight: 400;
     color:#18191F;
+    background-color: #fff;
+}
+h2, h3, h4, h5{
+    font-weight: 700;
 }
 .container{
     max-width: 1200px;
@@ -22,9 +27,13 @@ body{
 .custom-color{
     color:#8ad800
 }
-.hero, .about-me{
+.hero, .about-me, .cards, .counter-area{
     display: flex;
 }
+/*Base Css End*/
+
+
+/*Hero Section Start*/
 .btn{
     background-image: linear-gradient(to right, #8ad800, #37a73e);
     padding: 12px 20px;
@@ -36,8 +45,8 @@ body{
 .hero, .about-me{
     align-items: center;
 }
-.hero{
-    padding:50px 0;
+.hero, .cards-area{
+    padding:80px 0;
 }
 .hero-left, .hero-right, .about-left, .about-right{
     width: 40%;
@@ -55,8 +64,10 @@ body{
 .hero-left p{
     color:#828282;
 }
+/*Hero Section End*/
 
-/* About Section */
+
+/*About Section Start*/
 .about-area{
     background:url("../images/about-bg.jpg") no-repeat center/cover;  
 }
@@ -71,6 +82,58 @@ body{
     padding-bottom: 70px;
 }
 .about-right h2{
-    color:#707070
+    color:#707070;
+    font-size: 40px;
 }
+/*About Section End*/
 
+
+/*Cards Section Start*/
+.cards-into{
+    text-align: center;
+    max-width: 700px;
+    margin:0 auto;
+}
+.cards-into h3{
+    font-size: 36px;
+    color:#676767;
+}
+.cards-into p{
+    color:#252525;
+    padding:30px 0;
+}
+.card-item{
+    margin:20px;
+    border-radius:30px;
+    background-color: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    padding:15px;
+}
+.card-item img{
+    border-radius: 20px;
+}
+.card-content{
+    padding:30px 0 20px;
+}
+.card-content h3{
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+/*Cards Section End*/
+
+
+/*Counter Section Start*/
+.counter-area{
+    background-color: #fff;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.15);
+    justify-content: space-around;
+    text-align:center;
+    padding:70px 0;
+    border-radius: 30px;
+}
+.counter-item h2{
+    font-size: 48px;
+    line-height: 58px;
+}
+/*Counter Section End*/
