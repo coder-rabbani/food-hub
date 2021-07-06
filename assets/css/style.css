@@ -27,7 +27,7 @@ h2, h3, h4, h5{
 .custom-color{
     color:#8ad800
 }
-.hero, .about-me, .cards, .counter-area, .our-team{
+.hero, .about-me, .cards, .counter-area, .our-team, .blog-grid{
     display: flex;
 }
 /*Base Css End*/
@@ -115,9 +115,9 @@ h2, h3, h4, h5{
 .card-content{
     padding:30px 0 20px;
 }
-.card-content h3{
+.card-content h3, .blog-content h3{
     font-size: 28px;
-    line-height: 40px;
+    line-height: 32px;
     padding-bottom: 10px;
 }
 /*Cards Section End*/
@@ -139,8 +139,9 @@ h2, h3, h4, h5{
 /*Counter Section End*/
 
 /* Team Section Start*/
-.team-intro{
+.team-intro, .blog-intro{
     text-align: center;
+    padding: 50px 0;
 }
 .our-team{
     text-align: center;
@@ -162,14 +163,11 @@ h2, h3, h4, h5{
 #team-two img{
     border-radius: 0 30px 0 0;
 }
-.team-intro{
-    padding: 50px 0;
-}
-.team-intro h5{
+.team-intro h5, .blog-intro h5{
     font-size: 20px;
     color:#8ad800;
 }
-.team-intro h3{
+.team-intro h3, .blog-intro h3{
     font-size: 36px;
     color:#18191F;
     line-height: 45px;
@@ -177,5 +175,29 @@ h2, h3, h4, h5{
 .team-member h3{
     margin-top:20px;
 }
-
 /* Team Section End*/
+
+/* Blog Section Start */
+.blog-item{
+    padding:20px;
+}
+.blog-item img{
+    z-index: 0px;
+    border-radius: 20px;
+}
+.blog-content{
+    padding:30px 30px 30px;
+    background-color: #FDEAEC;
+    z-index: 100px;
+    margin:-100px 30px 0px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:10px 5px 5px 0px rgba(138, 216, 0, 0.1);
+}
+.blog-content p{
+    padding:20px 0 30px;
+}
+.blog-content .btn{
+    border-radius: 5px;;
+}
+/* Blog Section End */
